@@ -1,0 +1,140 @@
+*{
+    margin: 1px;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(162, 206, 207) ; 
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.contenedor{
+    width: 90%;
+    max-width:800px;
+    margin: auto;
+}
+
+
+
+header {
+    padding:40px 0;
+}
+
+header .logo{
+    text-align: center;
+    margin-bottom: 40px;
+}
+header .logo p{
+    color: rgb(45, 8, 87);
+}
+header form{
+    width: 100%;
+    display:flex;
+    justify-content:center;
+    margin-bottom:  20px;
+}
+
+header .barra-busqueda{
+    width: 70%;
+    height: 40px;
+    line-height: 40px;
+    background: white;
+    padding: 0 20px;
+    border-radius: 100px;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+}
+
+header .categorias {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+header .categorias a {
+    color: rgb(10, 9, 7);
+    margin:10 px 20px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+header .categorias a.activo {
+   color: red;
+}
+  
+.grid-layout{
+    width: 90%;
+    margin: 0 auto;
+    height: 650px;
+    display:grid;
+    grid-template-areas: "a1  a2"
+                         "b1  b2"
+                         "c1  c2"
+                         "d1  d2";
+
+   
+    border:1px solid rgb(12, 10, 10);
+    background-color: rgb(15, 15, 11);
+
+}
+
+h1{
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:x-large;
+}
+
+
+.i1{
+    background-image: url(imagenes/coders\ 10.jpg);
+    grid-area: a1;
+    height: 200px;
+    margin-bottom: 1px;
+}
+.i2{
+    background-image: url(imagenes/imagen\ 10.jpg);
+    grid-area: a2;
+    height: 200px;
+    margin-bottom: 1px;
+}
+
+.i3{
+    grid-area: b1 ;
+    background-image: url(imagenes/RRHH.jpg);
+    color: rgb(231, 33, 33);
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    text-align:justify;
+    height: 200px;
+    margin-bottom: 1px;
+}
+
+.i4{
+    grid-area: b2;
+    background-image: url(imagenes/pacman.jpg);
+    height: 200px;
+    margin-bottom: 1px;
+}
+
+.i5{
+    grid-area: c1;
+    background-image: url(imagenes/redes.png);
+    height: 200px;
+    margin-bottom: 1px;
+}
+
+.i6{
+    grid-area: c2;
+    background-image: url(imagenes/proyecto\ 6.png);
+    height: 200px;
+   
+}
+
